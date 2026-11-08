@@ -15,7 +15,7 @@ def connect_db():
     except mysql.connector.Error as err:
         messagebox.showerror("Database Error",str(err))
 
-
+#hi pavan
 def clear_fields():
     emp_id_entry.delete(0,tk.END)
     first_entry.delete(0, tk.END)
